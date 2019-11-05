@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Batch BatchTypeName="RU - P6552 PSB" DefaultBarcode="RU_P6552" MachineName="RM9W043" User="a.parshina" ScanStartDate="11.02.2018 16:27:49" ScanEndDate="11.02.2018 16:42:29" ScanVersion="2.2.3.0" ScanDriver="FI6770X" ScanModel="PaperStream_IP fi-6670 on STI - 0002">
+  <Indexes>
+    <BOX_NUMBER>RE151003086251</BOX_NUMBER>
+    <ORG_BATCH_ID>8502281</ORG_BATCH_ID>
+  </Indexes>
+  <Documents>
+    <Document PageCount="1" Path="D:\temp\!scan\Release\201802\11\RM9W043_e382688a-10e6-42cd-bd35-628c51443d07\20180211230136_62637.tiff" Barcode="" ScanSource="Feeder" IsColour="0" />
+    <Document PageCount="1" Path="D:\temp\!scan\Release\201802\11\RM9W043_e382688a-10e6-42cd-bd35-628c51443d07\20180211230136_64197.tiff" Barcode="" ScanSource="Feeder" IsColour="0" />
+    <Document PageCount="1" Path="D:\temp\!scan\Release\201802\11\RM9W043_e382688a-10e6-42cd-bd35-628c51443d07\20180211230136_68877.tiff" Barcode="" ScanSource="Feeder" IsColour="0" />
+    <Document PageCount="1" Path="D:\temp\!scan\Release\201802\11\RM9W043_e382688a-10e6-42cd-bd35-628c51443d07\20180211230136_71997.tiff" Barcode="" ScanSource="Feeder" IsColour="0" />
+    <Document PageCount="1" Path="D:\temp\!scan\Release\201802\11\RM9W043_e382688a-10e6-42cd-bd35-628c51443d07\20180211230136_73557.tiff" Barcode="" ScanSource="Feeder" IsColour="0" />
+  </Documents>
+</Batch>
