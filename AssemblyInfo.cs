@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TesseractTest")]
+[assembly: AssemblyTitle("TesseractPatagamesTest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TesseractTest")]
+[assembly: AssemblyProduct("TesseractPatagamesTest")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0f981bd1-23c6-4937-93e1-19b3e930b154")]
+[assembly: Guid("53fc56f4-6c31-49c1-bef7-d57c7da12110")]
 
 // Version information for an assembly consists of the following four values:
 //
