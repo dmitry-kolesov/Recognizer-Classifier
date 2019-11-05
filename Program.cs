@@ -1,27 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+using TesseractPatagamesTest.OCR;
 using TesseractTest.OCR;
 
-namespace TesseractTest
+namespace TesseractPatagamesTest
 {
     class Program
     {
         static List<IRecognize> recognizers =
             new List<IRecognize>()
             {
-                new TesseractWeldTest(),
-                new IronOcrTest(),
-                //new TesseractPatagamesTest(),
+                new EmguOcr(),
+                new TesseractTest.OCR.TesseractPatagamesTest(),
             };
 
         static void Main(string[] args)
         {
-            MassTest();
+            var starter = new MultithreadedClassisifer();
+            starter.StartThreads();
+        
+            Console.ReadLine();
         }
 
         static void PatagamesMassTest()
@@ -29,7 +28,7 @@ namespace TesseractTest
             var dir = new DirectoryInfo("C:\\Users\\d.kolesov\\source\\repos\\Tests\\TesseractTest\\test_data");
             var items = dir.GetFiles("*.tiff");
 
-            var recognizer = new TesseractPatagamesTest();
+            var recognizer = new TesseractTest.OCR.TesseractPatagamesTest();
             foreach (var fileInfo in items)
             {
                 var result = recognizer.Recognize(fileInfo.FullName);
@@ -42,7 +41,7 @@ namespace TesseractTest
 
         static void PatagamesSingleTest()
         {
-            var recognizer = new TesseractPatagamesTest();
+            var recognizer = new TesseractTest.OCR.TesseractPatagamesTest();
             var result = recognizer.Recognize("C:\\Users\\d.kolesov\\Downloads\\договор перевода.tiff");
             Console.WriteLine("Recognizer:: " + recognizer.GetType().FullName);
             Console.WriteLine("Seconds:: " + result.TotalSeconds);
@@ -80,3 +79,4 @@ namespace TesseractTest
         }
     }
 }
+
